@@ -11,13 +11,6 @@ P = param.P;
 Q = param.Q;
 R = param.R;
 
-% $$$ % initialize filter
-% $$$ if dt < 0
-% $$$     xpk1 = [yk, 0]';
-% $$$     param.P = 10*eye(numel(xpk));
-% $$$     return;
-% $$$ end
-
 %%% KF updates
 % compute a posteriori values using measument updates
 K = P*C' * inv(C*P*C' + R);

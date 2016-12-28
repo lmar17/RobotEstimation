@@ -3,7 +3,7 @@
 
 % Load mobile robot data. The data is taken from the Coursera Robotics
 % course Estimation and Learning by Prof. Dan Lee, University of
-% Pennsylvania.
+% Pennsylvania: www.coursera.org/learn/robotics-learning
 
 % Two variables are loaded: t, pose
 %
